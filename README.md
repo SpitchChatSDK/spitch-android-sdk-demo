@@ -1,5 +1,5 @@
 # Spitch SDK demo
-[ ![Download](https://api.bintray.com/packages/webim/maven/WebimSdkAndroid3/images/download.svg) ](https://bintray.com/webim/maven/WebimSdkAndroid3/_latestVersion)
+[ ![Download] ](https://bintray.com/webim/maven/WebimSdkAndroid3/_latestVersion)
 Application demonstrates capabilities of *Spitch Android SDK*. This application is published on [Google Play](https://play.google.com/store/apps/details?id=ru.webim.demo.client).
 
 [Spitch online consultant] is a multifunctional service for consulting vistors of your site using pop-up chat — it can be freely downloaded and installed as a universal script or CMS module on required web pages and can also be integrated into a mobile trading application. *Spitch Android SDK* library provides developers of Google Android mobile applications with tools for integration a chat between users and operators of a developer company into those applications based on technologies used in Spitch online consultant.
@@ -19,8 +19,8 @@ Also add to AndroidManifest.xml the following permissions:
 
 ## Usage
 The public API is only in com.webimapp.android.sdk package. All the nested packages are used exclusively for SDK internal needs.
-### WebimSession
-To get started with the chat, you need to get WebimSession object.
+### SpitchSession
+To get started with the chat, you need to get SpitchSession object.
 ```java
 WebimSession sessoin = Webim.newSessionBuilder()
     .setContext(context) // Activity ot Application
